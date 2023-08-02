@@ -1,6 +1,7 @@
 
 
-![postgresql-as-a-service-elephantsql](https://github.com/surafel9/test-server-demo/postgresql-as-a-service-elephantsql.png)
+![postgresql-as-a-service-elephantsql](https://github.com/surafel9/test-server-demo/assets/96924000/a26b71c7-3da4-4be1-9a00-0637ff725151)
+
 
 Test Server for ElephantSQL with Node.js and pg
 This is a simple test server to connect to ElephantSQL using Node.js and pg. The server is built with Express and allows you to retrieve data from a PostgreSQL database hosted on ElephantSQL.
