@@ -1,9 +1,11 @@
 
-![postgresql-as-a-service-elephantsql](https://github.com/surafel9/test-server-demo/assets/96924000/92ee3f00-c391-4851-bc74-484cc4329f1b)
+
+![postgresql-as-a-service-elephantsql](https://github.com/surafel9/test-server-demo/assets/96924000/a26b71c7-3da4-4be1-9a00-0637ff725151)
 
 
+Test Server for ElephantSQL with Node.js and pg. 
 
-Test Server for ElephantSQL with Node.js and pg
+
 This is a simple test server to connect to ElephantSQL using Node.js and pg. The server is built with Express and allows you to retrieve data from a PostgreSQL database hosted on ElephantSQL.
 
 Prerequisites
@@ -29,18 +31,17 @@ bash
 Copy code
 npm install
 Add the connection information to a .env file in the project directory:
-makefile
-Copy code
+
 DB_URL=your_database_url_here
 DB_API_KEY=your_api_key_here
+
 Run the server with nodemon:
 bash
 Copy code
 npm run dev
 If you prefer not to use nodemon, you can run the server with:
 
-bash
-Copy code
+
 nodemon index.js or node index.js
 The server should now be running on http://localhost:3000.
 
